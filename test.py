@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 import serial
 
 if __name__ == '__main__':
-    # assume you saved your recordings into a "data" folder
+    # assume you saved the recordings into a "data" folder
     A = pd.read_csv("testA.csv")
     B = pd.read_csv("testB.csv")
     C = pd.read_csv("testC.csv")
